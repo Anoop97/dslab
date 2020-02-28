@@ -35,7 +35,7 @@ public class MyBST {
     public void traverseInOrder(TreeNode node){
         if(node!=null){
             traverseInOrder(node.getLeft());
-            System.out.println(node.getData()+",");
+            System.out.println(node.getData()+"");
             traverseInOrder(node.getRight());
         }
 
